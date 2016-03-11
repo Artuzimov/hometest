@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+body {
+	background: #f9f9f9;
+	font-family: Arial,sans-serif; 
+  }
+
+.clearfix:after {
+	content: "";
+	display: block;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 45px;
+	width: 1150px;
+	height: 900px;
+	background: white;
+}
+.header {
+	color: #333333;
+	font-family: "Tahoma";
+	font-size: 50px;
+	line-height: 1.2;
+}
+
+.header:first-letter {
+	color: #242424;
+	font-weight: bold;
+	font-size: 40px;
+
+}
+
+.main {
+	margin-top: 40px;
+	width: 100%;
+	height: 50px;
+	margin: 0 auto 40px auto;
+background: rgb(125,126,125); 
+background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); 
+background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); 
+background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); 
+}
+
+.main li {
+	float: left;
+	padding: 15px;
+	width: 120px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-family: "Tahoma";
+	line-height: 1.2;
+}
+
+.main li:hover {
+	border: 1px solid #838383;
+	background: #373737;
+}
+
+.sidebar {
+  float: left;
+  width: 280px;
+}
+
+.sidebar li {
+	border: 1px solid #c8c8c8;
+
+}
+
+.leftmenu li {
+	display: block;
+	padding: 15px 20px;
+	text-decoration: none;
+	color: #656363;
+	font-size: 13px;
+	font-family: "Tahoma";
+	line-height: 1.2;
+}
+
+.leftmenu li:hover {
+	padding: left 50px;
+  background: #f9f9f9;
+  color: #2c2c2c;
+}
+
+.content {
+	float: left;
+	margin-left: 40px;
+}
+
+.content img {
+	padding: 50px 150px;
+	margin-bottom: 40px;
+	border: 1px solid #c8c8c8;
+	text-align: center;
+	overflow: hidden;
+}
+
+.img-discription {
+	width: 790px;
+	margin: 50px 20px;
+	padding: 0;
+	font-size: 14px;
+	font-family: "Tahoma";
+	line-height: 1.2;
+}
+
+.footer-clearfix {
+	background-color: #e1e1e1 ;
+	width: 100%;
+}
+
+.footer-clearfix li {
+	clear:both left;
+	float: left;
+	width: 120px;
+}
+
+.footer-clearfix li a {
+	display: block;
+	padding: 20px;
+	color: #2c2c2c;
+	font-size: 13px;
+	font-family: "Tahoma";
+	line-height: 1.2;
+}
+
+.footer-clearfix li:last child {
+	float: right;
+	width: 200px;
+}
+
+.footer-clearfix li a:hover {
+	text-decoration: underline;
+}
+
+
+
