@@ -46,6 +46,8 @@ background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 
 }
 .menu li a {
 	color: white;
+	text-decoration: none;
+	border-color: transparent;
 }
 .menu li:hover {
   border: 1px solid #838383;
